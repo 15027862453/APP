@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="common/css/bootstrap.css">
+    <link rel="stylesheet" href="common/css/web-order.css">
+</head>
+<body>
+    <div class="container">
+        <!-- 头部 -->
+        <div class="header">
+            <img src="common/img/web-logo.png" alt="" class="logo">
+            <!-- 切换栏 -->
+            <ul class="nav">
+                <li class="nav-active">排位</li>
+                <li>订单</li>
+                <li>商品</li>
+                <li>财务</li>
+                <li>收益</li>
+            </ul>
+            <a href="" class="leave"><img src="common/img/web-leave.png" alt="" ></a>
+            <div class="member">
+                <p>会员名：</p>
+                <p>汇省汇玩</p>
+            </div>
+        </div>
+        <!-- 筛选栏 -->
+        <div class="filter">
+            <div class="filter-con">
+                <input type="text" class="filter-input" placeholder="搜索桌号">
+                <button type="submit" class="btn btn-default filter-button">筛选</button>
+            </div>
+            <div class="filter-right">
+                <p class="filter-empty">空桌</p>
+                <p class="filter-full">有客</p>
+            </div>
+        </div>
+        <!-- 内容表格 -->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>桌号</th>
+                    <th>状态</th>
+                    <th>人数</th>
+                    <th>订单数</th>
+                    <th>订单编号</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>无客</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>00001</td>
+                </tr>
+                <tr class="guest-full">
+                    <td>2</td>
+                    <td>有客</td>
+                    <td>6</td>
+                    <td>3</td>
+                    <td class="filter-empty">00002</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+
+
+    <script src="common/js/jquery.min.js"></script>
+    <script src="common/js/bootstrap.min.js"></script>
+    <script src="common/js/web-order.js"></script>
+</body>
+</html>

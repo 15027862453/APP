@@ -1,0 +1,145 @@
+body{
+  background-color: #fafafa;
+}
+input{
+  outline: none;
+}
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+.header{
+  float: left;
+  width: 100%;
+  height: 1.5rem;
+  background-color: #f2f2f2;
+}
+.logo{
+  float: left;
+  width: 2.94rem;
+  height: auto;
+  margin-left: 0.5rem;
+  margin-top: 0.2rem;
+}
+/* 头部切换栏 */
+.nav{
+  float:left;
+  margin-left: 8.33%;
+  margin-top: 0.4rem;
+  height: 1.1rem;
+  width: 41.66%;
+}
+.nav li{
+  float: left;
+  height: 100%;
+  width: 20%;
+  text-align: center;
+  line-height:1.1rem;
+  border-radius: 8px 8px 0 0 ;
+  font-size: 0.38rem;
+  cursor: pointer;
+}
+.nav-active{
+  background-color: #ef7b2a;
+  color: #fff;
+}
+.leave{
+  float:right;
+  margin-top: 0.8rem;
+  margin-right: 2.6%;
+}
+.leave img{
+  float: left;
+  height: 0.32rem;
+}
+.member{
+  float:right;
+  margin-top: 0.8rem;
+  margin-right: 1.04%;
+}
+.member p{
+  float: left;
+  font-size: 0.26rem;
+}
+/* 筛选栏 */
+.filter{
+  float:left;
+  width: 100%;
+  height: 1.14rem;
+  background-color: #f2f2f2;
+  margin-top: 0.5rem;
+}
+.filter-con{
+  float:left;
+  margin-left: 2.6%;
+  margin-top:0.27rem;
+  width: 26.04%;
+}
+.filter-input{
+  float: left;
+  background-color: #e6e6e6;
+  color: #808080;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  height: 0.6rem;
+  padding: 0 10px;
+  line-height: 0.6rem;
+  font-size: 0.2rem;
+  font-weight: bold;
+}
+.filter-button{
+  margin-left: 4%;
+  color: #808080;
+  background-color: #e6e6e6;
+  height: 0.6rem;
+  border-radius: 10px;
+}
+.filter-right{
+  float: right;
+  margin-right: 2.6%;
+}
+.filter-right p{
+  float: left;
+  margin-left: 14px;
+  font-size: 0.4rem;
+  margin-top: 0.3rem;
+}
+.filter-empty{
+  color: #1ca501;
+}
+.filter-full{
+  color: #ff0000;
+}
+/* 内容表格 */
+.table{
+  float: left;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.32rem;
+}
+
+.table th{
+  text-align: center;
+  padding: 0;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  vertical-align:middle !important;
+}
+.table td{
+  text-align: center;
+  padding: 0;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  vertical-align:middle  !important;
+}
+.table thead{
+  background-color: #ccc;
+  border: none;
+  color: #000;
+}
+.guest-full{
+  background-color: #e6e6e6;
+}

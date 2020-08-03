@@ -1,0 +1,1808 @@
+body{
+    background-color: #fafafa !important;
+    float: left;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    max-width: 1280px;
+    padding-bottom: 60px;
+    float: left;
+}
+.header{
+    width: 100%;
+    float: left;
+    height: 1.8rem;
+    background-color: #ec5133;
+    position: relative;
+    text-align: center;
+}
+.return{
+    height: 0.8rem;
+    position: absolute;
+    left: 4%;
+    top:0.5rem;
+}
+.return span{
+    font-size: 0.6rem;
+    color: #fff;
+}
+.header p{
+    display: inline-block;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    color: #fff;
+    font-size: 0.7rem;
+    margin: 0;
+}
+.header .manage{
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 0;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.5rem;
+    color: #fff;
+}
+/* 地址管理-添加 */
+.address-con{
+    float: left;
+    width: 100%;
+    margin-top: 0.5rem;
+    background-color: #fff;
+}
+.address-con ul{
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.address-con li{
+    float: left;
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-bottom: 1px solid #f2f2f2;
+}
+.address-con li p{
+    margin: 0;
+    padding: 0.52rem 0;
+    font-size: 0.48rem;
+}
+.list-left{
+    float: left;
+    width: 2.6rem;
+    color: #000;
+}
+.list-right{
+    float: left;
+    width: 70%;
+}
+.list-right input{
+    color: #808080;
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 80%;
+}
+.bot-button{
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    background-color: #dd6343;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0.6rem 0;
+    color: #fff;
+    font-size: 0.6rem;
+    margin-top: 2rem;
+}
+/* 地址管理-选择 */
+.select-ul{
+    float: left;
+    width: 100%;
+    margin:0;
+}
+.select-ul li{
+    position: relative;
+    float: left;
+    margin-top: 0.4rem;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 15px 15px -15px #eee,0px -15px 15px -15px #eee; 
+}
+.select-ul-con1{
+    float: left;
+    width: 92%;
+    margin: 0.3rem 4% 0;
+    color: #000;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+.select-ul-con2{
+    float: left;
+    width: 92%;
+    margin: 0.3rem 4% 0;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.select-ul-bottom{
+    float: left;
+    width: 100%;
+    height: 1.3rem;
+    margin-top: 0.3rem;
+    border-top: 1px solid #f2f2f2;
+}
+.delete{
+    position: absolute;
+    font-size: 0.6rem;
+    right: 3%;
+    top: 0.3rem;
+}
+.modify{
+    float: right;
+    font-size: 0.4rem;
+    padding: 0.18rem 0.5rem;
+    border: 1px solid #e6e6e6;
+    margin-top: 0.3rem;
+    margin-right: 4%;
+}
+.check{
+    float: left;
+    margin-left: 4%;
+    width: 0.7rem;
+    height: 0.7rem;
+    border:1px solid #e7e7e7;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    margin-top: 0.3rem;
+}
+.default{
+    float: left;
+    margin-left: 3%;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    font-size: 0.4rem;
+}
+.check input{
+    width: 0.6rem;
+    height: 0.6rem;
+}
+.check-right{
+    background: url(../img/check-right.png);
+    background-size: 100% 100%;
+}
+/* 查看物流 */
+.logistics-state{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding: 0.3rem 4%;
+    min-height: 3rem;;
+}
+.logistics-state p{
+    float: left;
+    color: #808080;
+    font-size: 0.6rem;
+    width: 100%;
+    margin-bottom: 8px;
+}
+.logistics-state p span{
+    color: #3bc000;
+}
+/* 进度条  */
+.logistics-progress{
+    width: 100%;
+    float: left;
+    margin-top: 0.6rem;
+    background-color: #fff;
+    min-height: 5rem;
+    padding: 0.6rem 6.6%;
+}
+.logistics-progress-con{
+    height: 2.4rem;
+    border-left: 2px solid #808080;
+    float: left;
+    padding: 0 0.5rem;
+    position: relative;
+}
+.logistics-progress-con p{
+    float: left;
+    min-width: 60%;
+    margin: 0;
+    font-size: 0.6rem;
+}
+.logistics-progress-con p span{
+    float: left;
+    margin-right:8px;
+    font-size: 0.5rem;
+}
+.logistics-progress-con em{
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.4rem;
+    background-color: #808080;
+    position: absolute;
+    left: -0.2rem;
+    top: 0.2rem;
+}
+.logistics-progress-con .progress-on{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 0.6rem;
+    background-color: #3bc000;
+    border: 2px solid #9ddf7f;
+    left: -0.3rem;
+    top: 0rem;
+}
+/* 发现页面 */
+.find-con{
+    float: left;
+    width: 100%;
+}
+.re-goods-find{
+    float: left;
+    margin-top: 0.2rem;
+    width: 100%;
+    background-color: #fff;
+}
+.re-goods-title-find{
+    float: left;
+    width: 92%;
+    margin-left:4%;
+}
+.re-goods-icon{
+    float:left;
+    width:1.2rem;
+}
+.re-goods-title-find p{
+    float: left;
+    font-size: 0.6rem;
+    margin-top: 0.22rem;
+    font-weight: bold;
+    border-right: 1px solid #ccc;
+    padding-right: 10px;
+    margin-bottom: 0px;
+}
+.re-goods-title-find span{
+    float: left;
+    font-size: 0.5rem;
+    margin-top: 0.3rem;
+    padding-left: 3%;
+    color: #ff0000;
+}
+.find-fire{
+    float: left;
+    margin-left: 2%;
+    height: 0.7rem;
+    margin-top: 0.3rem;
+}
+.hot-area ul{
+    float: left;
+    width:96%;
+    margin-left: 2%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.hot-area ul li{
+    width:32%;
+    float: left;
+    position: relative;
+    margin-right: 2%;
+}
+.find-con .hot-area ul li:last-child{
+    margin-right: 0;
+}
+.goods{
+    float:left;
+    width:100%;
+}
+.hot-buy{
+    position: absolute;
+    padding: 3px;
+    background-color: #ff0000;
+    color: #fff;
+    bottom: 2.2rem;
+    font-size: 12px;
+    margin: 0;
+    border-radius: 0 8px 8px 0;
+    left: 0;
+}
+.hot-title{
+    float: left;
+    font-size: 14px;
+    width: 100%;
+    text-align: left;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin: 0;
+    position: relative;
+}
+.hot-money{
+    float: left;
+    width: 96%;
+    margin: 0;
+    margin-left: 2%;
+}
+.hot-money span{
+    font-size: 12px;
+    color: #ff0000;
+}
+.hot-money .delete-line{
+    text-decoration:line-through;
+    color:#919191;
+}
+.hot-share{
+    float: left;
+    width: 96%;
+    margin: 0;
+    font-size: 14px;
+    color: #ff0000;
+    margin-left: 2%;
+}
+.hot-share span{
+    float: left;
+    font-size: 12px;
+}
+.hot-share img{
+    float:right;
+    width: 15%;
+    margin-right: 4px;
+}
+.no-border{
+    border: none;
+}
+/* 底部导航 */
+.bottom-nav{
+    float: left;
+    width:100%;
+    position: fixed;
+    left:0;
+    bottom:0;
+    background-color: #fff;
+    z-index: 100;
+}
+.bottom-nav ul{
+float: left;
+width:100%;
+}
+.bottom-nav ul li{
+width:20%;
+float: left;
+}
+.bottom-nav ul li img{
+float: left;
+width: 50%;
+margin-left:25%;
+}
+.bottom-nav ul li span{
+float: left;
+width: 100%;
+text-align: center;
+color: black;
+}
+/* 生活圈内容 */
+.life-con{
+float: left;
+width: 92%;
+margin-left: 4%;
+margin-top: 0.56rem;
+background-color: #fff;
+padding: 0.3rem;
+position: relative;
+}
+.life-con dl{
+float: left;
+width: 80%;
+margin-bottom: 0.8rem;
+}
+.life-con dl dt{
+float: left;
+width: 2rem;
+height: 2rem;
+overflow: hidden;
+border-radius: 2rem;
+} 
+.life-con dl dt img{
+float: left;
+width: 2rem;
+height: 2rem;
+} 
+.life-con dl dd{
+float: left;
+margin-left: 0.3rem;
+width: 60%;
+margin-top: 0.2rem;
+}
+.life-word1{
+font-weight: bold;
+font-size: 0.6rem;
+}
+.life-word2{
+color: #ccc;
+font-size: 14px;
+}
+.pull-down{
+position: absolute;
+font-size: 18px;
+right: 0.6rem;
+top: 0.6rem;
+}
+.life-word-con{
+color: #000;
+font-size: 16px;
+float: left;
+overflow: hidden;
+}
+.life-more{
+float: left;
+width: 100%;
+font-size: 14px;
+color: #ccc;
+}
+.life-more span{
+float: right;
+} 
+.life-ul{
+float: left;
+width: 100%;
+margin-top: 0.6rem;
+}
+.life-ul li{
+float: left;
+width: 32%;
+margin-right:1.8%;
+border-radius: 0.4rem;
+overflow: hidden;
+}
+.life-ul li:nth-child(3n){
+margin-right: 0 !important;
+}
+.life-ul li img{
+width: 100%;
+height: 100%;
+float: left;
+}
+.life-bottom{
+float: left;
+width: 100%;
+margin-top: 0.6rem;
+}
+.life-bottom-left{
+float: left;
+}
+.life-bottom-left img{
+float: left;
+width: 0.8rem;
+height: 0.8rem;
+} 
+.life-bottom-left p{
+float: left;
+margin: 0;
+margin-left: 0.1rem;
+color: #ef7b2a;
+font-size: 0.6rem;
+}
+.life-bottom ul{
+float: right;
+}
+.life-bottom ul li{
+float: left;
+margin-right: 0.2rem;
+}
+.life-bottom ul li img{
+float: left;
+width: 1rem;
+}
+.life-bottom ul li span{
+color: #4e4e4e;
+float: left;
+font-size: 0.6rem;
+margin-top: 0.05rem;
+}
+/* 登录 */
+.logo{
+    float: left;
+    width: 52%;
+    margin-left: 24%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form-group{
+    float: left;
+    width: 92%;
+    margin-top: 0.5rem;
+    margin-left: 4%;
+    position: relative;
+    margin-bottom: 0;
+    background-color: #f2f2f2 !important;
+    border-radius: 4px;
+}
+.form-control{
+    background-color: #f2f2f2 !important;
+    border: none !important;
+    color: #999;
+    height: 1.6rem;
+    outline: none !important;
+}
+.clear{
+    position: absolute;
+    right: 10px;
+    top: 0.5rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    z-index: 100;
+}
+.eyes{
+    position: absolute;
+    right: 40px;
+    top: 0.5rem;
+    height: 0.6rem;
+    z-index: 100;
+}
+.jump{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0.4rem;
+}
+.jump a{
+    color: #999;
+    font-size: 0.4rem;
+}
+.forgot{
+    float: left;
+}
+.register{
+    float: right;
+}
+.login-mode{
+    float: left;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.login-mode .weixin{
+    float: left;
+    margin-left: 22%;
+}
+.login-mode .zhifubao{
+    float: right;
+    margin-right: 22%;
+}
+.login-mode div{
+    width: 20%;
+}
+.login-mode div img{
+    width: 100%;
+}
+.login-mode div p{
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 0.32rem;
+}
+/* 个人信息 */
+.personal-info{
+    float: left;
+    width: 100%;
+    background-color:#ec5133;
+    height: 3.8rem;
+}
+.personal-head{
+    float: left;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius:2.4rem;
+    overflow: hidden;
+    margin-left: 6.66%;
+    margin-top: 0.4rem;
+}
+.personal-head img{
+    width: 100%;
+}
+.personal-con{
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+    float: left;
+    width: 45%;
+}
+.personal-name{
+    float: left;
+    font-size: 0.6rem;   
+    color: #fff;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.personal-id{
+    float: left;
+    width: 100%;
+    color: #fff;
+    font-size: 0.6rem;
+}
+
+.personal-setting{
+    float: right;
+    margin-top: 0.4rem;
+    width: 10%;
+    margin-right: 2%;
+}
+.personal-setting img{
+    float: left;
+    width: 100%;
+}
+.personal-setting p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+/* 我的订单 */
+.my-order{
+    float: left;
+    width: 100%;
+    height: 2rem;
+    background-color: #fff;
+    margin-bottom: 1px;
+}
+.my-order p{
+    float: left;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.6rem;
+    margin-left: 8%;
+    margin-bottom: 0;
+}
+.my-order a{
+    float: right;
+    margin-right: 8%;
+    height: 2rem;
+    line-height: 2rem;
+    color: #808080;
+}
+.my-order div{
+    width: 92%;
+    float: left;
+    margin-left: 4%;
+    border-bottom:1px solid #ccc ;
+}
+/* 准备流程 */
+.my-ready{
+    width: 100%;
+    float: left;
+    background-color: #fff;
+}
+.my-ready ul{
+float: left;
+width:100%;
+margin-top: 0.4rem;
+}
+.my-ready ul li{
+width:25%;
+float: left;
+}
+.my-ready ul li img{
+float: left;
+width: 40%;
+margin-left:30%;
+}
+.my-ready ul li span{
+float: left;
+width: 100%;
+text-align: center;
+color: black;
+}
+/* 内容导航 */
+.content-nav{
+    float: left;
+    width: 100%;
+    padding-bottom: 1.8rem;
+    background-color: #fff;
+}
+.content-nav ul{
+    float: left;
+    width:100%;
+    overflow: hidden;
+}
+.content-nav ul li{
+    width:33.3%;
+    float: left;
+    border-right:1px solid #ccc;
+}
+.content-nav ul li a{
+    display: inline-block;
+    margin: 0.4rem 0;
+}
+.content-nav ul li:nth-child(3n){
+    border-right:0 !important;
+}
+.content-nav ul li img{
+float: left;
+width: 28%;
+margin-left:36%;
+}
+.content-nav ul li span{
+float: left;
+width: 100%;
+text-align: center;
+color: black;
+font-size: 0.4rem;
+margin-top: 2px;
+}
+.border-tb{
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+/* 商品详情 */
+.details{
+    float: left;
+    width: 100%;
+}
+.re-goods-list-product{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+}
+.re-goods-list-product dt{
+    float:left;
+    width: 100%;
+    margin-bottom: 6px;
+}
+.re-goods-list-product dt img{
+    float: left;
+    width: 100%;
+}
+.re-goods-list-product dd{
+    float:left;
+    width:92%;
+    margin-left: 4%;
+    font-size: 0.6rem;
+}
+.re-goods-list-product .dd1{
+    margin-top: 0.04rem;
+}
+.re-goods-fire{
+    float: left;
+    width: 0.25rem;
+}
+.re-goods-list-product .dd1 span{
+    color: #ff0000;
+    font-size: 12px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.re-goods-list-product .dd2 span{
+    color: #ff0000;
+}
+.re-goods-list-product .dd2 .delete-line{
+    text-decoration:line-through;
+    color:#919191;
+    margin-left:.3rem;
+    font-size:13px;
+}
+.re-goods-list-product .dd2 p{
+    float:right;
+    font-size: 12px;
+    color: #ff0000;
+    margin: 0;
+}
+.re-goods-list-product .dd2 img{
+    float:right;
+    height: 0.8rem;
+    margin-left: 4px;
+}
+/* 倒计时 */
+.duan-common{
+    float: left;
+    width: 100%;
+    margin-top: 0.4rem;
+    background-color: #fff;
+    height: 2rem;
+}
+.time-icon{
+    float: left;
+    height: 1.6rem;
+    margin-top: 0.2rem;
+    margin-left: 1%;
+}
+.timespan{
+    float: left;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 1%;
+    color: #ff0000;
+    font-size: 0.6rem;
+}
+/* 标签 */
+.details-label{
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    height: 100%;
+}
+.details-label li{
+    float: left;
+    height: 100%;
+    width: 33.33%;
+}
+.details-label li:nth-child(1){
+    text-align: left;
+}
+.details-label li:nth-child(2){
+    text-align: center;
+}
+.details-label li:nth-child(3){
+    text-align: right;
+}
+.details-label li img,.details-label li span{
+    display: inline-block;
+}
+.details-label img{
+    height: 1.2rem;
+}
+.details-label span{
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: bold;
+    font-size: 0.5rem;
+    margin-left: 4px;
+}
+/* 商品详情 */
+.details-title{
+    float: left;
+    width: 100%;
+    text-align: center;
+    height: 2rem;
+}
+.details-title span{
+    display: inline-block;
+    border-top:1px solid #ccc;
+    width: 8%;
+    margin-bottom: 0.2rem;
+}
+.details-title p{
+    display: inline-block;
+    color: #ccc;
+    margin: 0 10px;
+    height: 2rem;
+    line-height: 2rem;
+}
+.details-con{
+    float: left;
+    width: 100%;
+}
+.details-con img{
+    float: left;
+    width: 100%;
+}
+/* 商品推荐 */
+.re-goods{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding-bottom: 0.8rem;
+}
+.re-goods-title{
+    float: left;
+    width: 92%;
+    margin-left:4%;
+}
+
+.re-goods-title p{
+    float: left;
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+    font-weight: bold;
+}
+.re-goods-title span{
+    float: left;
+    font-size: 0.6rem;
+    margin-left: 2%;
+    margin-top: 0.2rem;
+    border-left: 1px solid #ccc;
+    color:#808080;
+    padding-left: 3%;
+}
+.re-goods-list{
+    float: left;
+    border-top:2px solid #fafafa;
+    width: 92%;
+    margin-left: 4%;
+    margin-bottom: 0.2rem;
+}
+.re-goods-list dt{
+    float:left;
+    width: 34%;
+}
+.re-goods-list dt img{
+    float: left;
+    width: 100%;
+    height:5rem;
+}
+.re-goods-list dd{
+    float:left;
+    width:64%;
+    margin-left: 2%;
+    font-weight: bold;
+    /*font-size: 18px;*/
+}
+.re-goods-word{
+    float:left;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+    border-radius: 6px;
+    margin-right: 2px;
+}
+.dd1{
+    margin-top: 0.1rem;
+}
+.re-goods-fire{
+    float: left;
+    width: 0.5rem;
+}
+.dd1 span{
+    color: #ff0000;
+    font-size: 12px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.dd2{
+    margin-bottom: 10px;
+}
+.dd2 span{
+    color: #ff0000;
+    font-size: 0.5rem;
+    font-weight: normal;
+}
+.dd2 .delete-line{
+    text-decoration:line-through;
+    color:#919191;
+    margin-left:0.3rem;
+    font-size: 0.4rem;
+}
+.dd3 span{
+    float: left;
+    margin-right: 4px;
+    padding: 2px;
+    font-size: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 6px;
+    color: #ff0000;
+    margin-top: 3px;
+}
+.dd3 p{
+    float:right;
+    font-size: 14px;
+    margin: 0;
+    color: #ff0000;
+    margin: 0;
+}
+.dd3 img{
+    float:right;
+    height: 1rem;
+    margin-left: 4px;
+}
+  /* 加入购物车 */
+.shopping{
+    width: 100%;
+    height: 2rem;
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    overflow: hidden;
+}
+.shopping-icon{
+    float: left;
+    height: 100%;
+    margin-left: 4%;
+    width: 30%;
+}
+.shopping-icon li{
+    float: left;
+    width: 33%;
+    height: 1.2rem;
+    margin-top: 0.4rem;
+    border-right:1px solid #c7c6c6;
+}
+.shopping-icon li img{
+    float: left;
+    width: 60%;
+    margin-left: 20%;
+}
+.shopping-button{
+    float: left;
+    width:33%;
+    height: 100%;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+}
+.shopping-button-join{
+    background-color: #fac831;
+}
+.shopping-button-now{
+    background-color: #ec5133;
+    color: #fff;
+}
+.shopping-icon .no-border{
+    border:none;
+}
+/* 注册页面 */
+.form-group .password{
+    width: 70%;
+    float: left;
+    background-color: none !important;
+}
+.get-code{
+    float: right;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 4px;
+    background-color: #ec5133;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 0.2rem;
+    margin-right: 10px;
+}
+.notes{
+    float: left;
+    width: 100%;
+    margin-top: 0.4rem;
+    text-align: center;
+}
+.notes p{
+    display: inline;
+    color: #999;
+}
+.notes a{
+    color: #ec5133;
+}
+/* 购物车列表 */
+.shop-re-goods{
+    float: left;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.shop-re-goods-title{
+    float: left;
+    width: 92%;
+    margin-left:4%;
+}
+.shop-re-goods-icon{
+    float:left;
+    width:0.6rem;
+}
+.shop-re-goods-title p{
+    float: left;
+    font-size: 0.35rem;
+    margin-top: 0.1rem;
+    font-weight: bold;
+}
+.shop-re-goods-title span{
+    float: left;
+    font-size: 0.28rem;
+    margin-left: 2%;
+    margin-top: 0.16rem;
+    border-left: 1px solid #ccc;
+    color:#808080;
+    padding-left: 3%;
+}
+.shop-re-goods-list{
+    float: left;
+    width:100%;
+    padding: 10px 2%;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+.shop-re-goods-list dt{
+    float:left;
+    width: 34%;
+}
+.shop-re-goods-list dt img{
+    float: left;
+    width: 100%;
+    /* height:2.5rem; */
+}
+.shop-re-goods-list dd{
+    float:left;
+    width:54%;
+    margin-left: 2%;
+    font-size: 0.6rem;
+    margin-bottom: 4px;
+}
+.shop-re-goods .dd1{
+    margin-top: 0.1rem;
+}
+.shop-re-goods-fire{
+    float: left;
+    width: 0.5rem;
+}
+.shop-re-goods .dd1 span{
+    color: #ff0000;
+    font-size: 12px;
+    float: left;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.shop-re-goods .dd2 span{
+    color: #ff0000;
+}
+.shop-re-goods .dd2 .delete-line{
+    text-decoration:line-through;
+    color:#919191;
+    margin-left:0.1rem;
+    font-size:13px;
+}
+.shop-re-goods-list .select-con{
+    float: left;
+    text-align: center;
+    margin-right: 0.2rem;
+    width: 0.8rem;
+    margin-top: 2rem;
+}
+/* 选择 */
+.select-label {
+    display:inline-block;
+    margin: 0;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.select-radio {
+	display:none;
+}
+.select-radioInput {
+	background-color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+}
+.select-radio:checked + .select-radioInput:after {
+    background: url(../img/check-right.png);
+    background-size: 100% 100%;
+	/* border-radius:100%; */
+	content:"";
+	display:inline-block;
+	height:0.8rem;
+    width:0.8rem;
+    margin: 0;
+}
+/* 加减 */
+.shop-re-goods .shop-re-goods-list .gw_num{
+    position: absolute;
+    border: 1px solid #808080;
+    width: 100px;
+    line-height: 24px;
+    overflow: hidden;
+    height: 24px;
+    right: 2%;
+    bottom: 10px;
+}
+.gw_num em{
+    display: block;
+    height: 24px;
+    width: 24px;
+    float: left;
+    color: #7A7979;
+    border-right: 1px solid #808080;
+    text-align: center;
+    cursor: pointer;
+}
+.gw_num .num{
+    display: block;
+    float: left;
+    text-align: center;
+    width: 46px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    border: 0;
+    outline: none;
+}
+.gw_num em.add{
+    float: right;
+    border-right: 0;
+    border-left: 1px solid #808080;
+}
+/* 结算 */
+.settle-accounts{
+    width: 100%;
+    position: fixed;
+    bottom:2.8rem;
+    background-color:#fff;
+    height: 2rem;
+    left: 0;
+    z-index: 100;
+}
+.settle-accounts .select-con{
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+    margin-right: 0.2rem;
+    width: 0.8rem;
+    margin-top: 0.5rem;
+}
+.settle-word{
+    float: left;
+    margin: 0;
+    margin-left: 0.2rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+.accounts-num{
+    float: right;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background-color: #ec5133;
+    min-width: 30%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    margin: 0;
+    margin-right: 6.6%;
+    margin-top: 0.4rem;
+    padding: 0 4px;
+    
+}
+.accounts-total{
+    margin: 0;
+    float: right;
+    height: 2rem;
+    line-height: 2rem;
+    margin-right: 4%;
+    font-weight: bold;
+}
+/* 提现页面 */
+.fill-in{
+    float: left;
+    width: 92%;
+    margin: 0.3rem 4% 0;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+/* 消息中心 */
+.news-center-con{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+.news-center-con li{
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    height: 3rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+.news-center-con li img{
+    float: left;
+    height: 2rem;
+    width: 2rem;
+    margin-top: 0.5rem;
+}
+.news-text{
+    float: left;
+    margin-left: 0.2rem;
+    margin-top: 0.6rem;
+    width: 50%;
+}
+.news-notes{
+    float: left;
+    width: 100%;
+    font-size: 0.6rem;
+    color:#000;
+    margin: 4px 0;
+}
+.news-notes-text{
+    float: left;
+    width: 100%;
+    font-size: 0.4rem;
+    color: #808080;
+    margin: 0;
+}
+.news-time{
+    float: right;
+    font-size: 0.6rem;
+    color: #808080;
+    height: 3rem;
+    line-height: 3rem;
+}
+/* 我的收益 */
+.profit-bac{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 1.7rem;
+    z-index: 10;
+}
+.my-profit-con{
+    float: left;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #fff;
+    height: 8rem;
+    position: absolute;
+    left:15%;
+    top:1.8rem;
+    z-index: 11;
+    box-shadow: 0px 0px 12px #ccc;
+}
+.my-profit-head{
+    float: left;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 2.4rem;
+    margin-left: 1.2rem;
+    margin-top: 1.2rem;
+    overflow: hidden;
+}
+.my-profit-head img{
+    float: left;
+    width:2.4rem;
+    height: 2.4rem;
+}
+.my-profit-body{
+    float: left;
+    width: 50%;
+    margin-top: 1.2rem;
+    margin-left: 10px;
+}
+.my-profit-name{
+    float: left; 
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+}
+.my-profit-id{
+    float: left;
+    width: 100%;
+    font-size: 0.5rem;
+    margin: 0.3rem 0 0 0;
+}
+.my-profit-money{
+    float: left;
+    width: 100%;
+    margin-top: 0.8rem;
+}
+.my-profit-money li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+.my-profit-money li p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 0.6rem;
+}
+.my-profit-money li .my-profit-word{
+    font-size: 0.6rem;
+    color: #ec5133;
+}
+.my-profit-apply{
+    position: absolute;
+    width: 70%;
+    height: 1.2rem;
+    background-color: #ec5133;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.5rem;
+    line-height: 1.2rem;
+    left: 15%;
+    bottom:-0.5rem;
+}
+.my-profit-introduce{
+    float: left;
+    width: 100%;
+    margin-top: 9rem;
+    background-color: #fff;
+}
+.my-profit-introduce ul{
+    float: left;
+    width: 100%;
+}
+.my-profit-introduce ul li{
+    float: left;
+    width: 25%;
+}
+.my-profit-introduce ul li img{
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+}
+.my-profit-introduce ul li p{
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 0.6rem;
+}
+.my-profit-income{
+    float: left;
+    width: 100%;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    background-color: #fff;
+    height: 2.4rem;
+}
+.my-profit-income img{
+    float: left;
+    margin-left: 4%;
+    height: 1.6rem;
+    margin-top: 0.4rem;
+}
+.my-profit-income p{
+    float: left;
+    margin-left:10px;
+    line-height: 2.4rem;
+    height: 2.4rem;
+    font-size: 0.6rem;
+}
+.my-profit-experience{
+    float: left;
+    width: 100%;
+}
+.my-profit-experience ul{
+    float: left;
+    width: 100%;
+}
+.my-profit-experience ul li{
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    height: 2.4rem;
+}
+.mp1{
+    float: left;
+    color: #808080;
+    font-size: 0.6rem;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin-bottom: 0;
+}
+.mp2{
+    float: right;
+    width: 40%;
+    margin-bottom: 0;
+}
+.mp2-em1{
+    float: right;
+    width: 100%;
+    color: #ff0000;
+    font-size: 0.6rem;
+    text-align: right; 
+    height: 1rem;
+    line-height: 1rem;
+    font-style: normal;
+}
+.mp2-em2{
+    float: right; 
+    text-align: right; 
+    width: 100%;
+    color: #808080;
+    font-size: 0.4rem;
+    height: 1.4rem;
+    line-height: 1.4rem;
+    font-style: normal;
+}
+/* 订单详情页 */
+.order-state p span{
+    color:#dd6343 !important;
+}
+.order-state-con{
+    padding-bottom: 0.3rem;
+}
+.order-modify{
+    position: absolute;
+    color: #000;
+    right:4%;
+    top:0.8rem;
+}
+.order-goods-list{
+    float: left;
+    width: 100%;
+    padding:12px 4%;
+    background-color: #fff;
+    margin-bottom: 0px;
+}
+.order-goods-list dt{
+    float: left;
+}
+.order-goods-list dt img{
+    height: 4rem;
+}
+.order-goods-list dd{
+    float: left;
+    width: 60%;
+    margin-left: 4%;
+}
+.dd4{
+    margin-top: 0.1rem;
+}
+.dd4 span{
+    color: #808080;
+}
+.dd4 em{
+    float: right;
+    font-style: normal;
+    color: #ed462f;
+    font-size: 0.5rem;
+}
+.order-address{
+    margin-bottom: 0.4rem;
+}
+.order-money{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    padding:10px 4%;
+    margin-top: 0.4rem;
+}
+.order-money p{
+    float: left;
+    width: 100%;
+    font-size: 0.6rem;
+}
+.order-money .om-left{
+    float: left;
+}
+.order-money .om-right{
+    float: right;
+}
+.om-red{
+    color: #dd6343;
+}
+.order-contact{
+    float: left;
+    width: 100%;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    margin-top: 0.4rem;
+    background-color: #fff;
+}
+.order-bottom{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 2rem;
+    height: 2rem;
+    margin-bottom: -60px;
+}
+.order-bottom p{
+    float: right;
+    width: 20%;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 4%;
+    border-radius: 20px;
+}
+.order-bottom-p1{
+    color: #fff;
+    background-color: #dd6343;
+}
+.order-bottom-p2{
+    color: #808080;
+    border: 1px solid #808080;
+}
+/* 个人中心-我的收藏 */
+.my-collection{
+    margin-top: 0.4rem;
+}
+.my-collection-delete{
+    float: right;
+    height: 0.8rem;
+    margin-left: 4px;
+    font-size: 0.6rem;
+}
+/* 商品详情支付 */
+.pdpp{
+    color: #000 !important;
+    font-weight: bold;
+}
+.pd-payment span{
+    color: #000 !important;
+}
+.pd-title{
+    float: left;
+    width: 100%;
+    margin-top: 0.4rem;
+    font-size: 0.4rem;
+    padding-left:4%;
+    font-weight: bold;
+    color: #000;
+}
+.dd5 em{
+    color: #808080 !important;
+}
+.pdp-money{
+    color: #f0a20a !important;
+}
+.payment-submit{
+    float: right;
+    background-color: #dd6343;
+    width: 30%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.payment-total{
+    float: left;
+    color: #808080;
+    font-size: 0.6rem;
+    margin-top: 0.6rem;
+    margin-left: 4%;
+}
+.payment-total span{
+    color: #f0a20a;
+}
+/* 全部订单 */
+.total-select{
+    float: left;
+    width: 100%;
+}
+.total-select ul{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+}
+.total-select ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 2rem;
+}
+.total-select ul li span{
+    color: #000;
+    font-size: 0.6rem;
+    display: inline-block;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: 0.3rem;
+}
+.total-select-on{
+    border-bottom: 4px solid #ec5133;
+}
+.total-title{
+    float: left;
+    width: 100%;
+    margin-top: 0.4rem;
+    font-size: 0.6rem;
+    padding-left:4%;
+    padding-top: 10px;
+    background-color: #fff;
+}
+.total-title p{
+    float: left;
+    font-weight: bold;
+    color: #808080;
+    margin-bottom: 0px;
+}
+.total-title span{
+    float: right;
+    color: #ec5133;
+    margin-right: 4%;
+}
+.order-goods-list .total-dd{
+    float: left;
+    width: 100%;
+    margin-left:0%;
+    margin-top: 10px;
+}
+.total-dd-span1{
+    float: left;
+    color:#808080;
+}
+.total-dd-span2{
+    float: left;
+    font-size: 0.6rem;
+    color: #ff0000;
+}
+.total-dd-span3{
+    float:right;
+    background-color: #fff;
+    width: 20%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    color: #ec5133;
+    border:1px solid #ec5133;
+}
+/* 支付订单 */
+.pay-money{
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    height:2.4rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #f0a20a;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+.pay-money-check{
+    float: right;
+    margin-right: 4%;
+    width: 0.7rem;
+    height: 0.7rem;
+    border:1px solid #ccc;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    margin-top: 0.8rem;
+}
+.pay-money-button{
+    float: left;
+    width: 100%;
+    background-color:#dd6343;
+    color:#fff;
+    text-align: center;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.6rem;
+    margin-bottom: -60px;
+    margin-top: 2rem;
+}
+/* 生活圈-新建 */
+.life-release{
+    display: inline-block;
+    position: absolute;
+    right: 4%;
+    top: 0.4rem;
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.6rem;
+    color: #fff;
+    background-color: #f9bd2c;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0 14px;
+}
+.life-textarea{
+    float: left;
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 0.4rem;
+    border: none;
+    padding: 10px;
+    color: #808080;
+}
+.life-wordnum{
+    float: left;
+    margin-left: 4%;
+    margin-top: 0.2rem;
+    color: #808080;
+}
+.life-upload{
+    float: left;
+    width: 84%;
+    margin-left: 8%;
+}
